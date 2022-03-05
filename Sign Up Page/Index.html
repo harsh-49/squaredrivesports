@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+<style>
+body{
+	margin: 0;
+	padding: 0;
+	background: url(https://images.thequint.com/thequint%2F2019-06%2F74534fb0-7336-4d35-86da-eed336301fbd%2FAP19159616409145.jpg?rect=0%2C0%2C1491%2C839);
+	background-size: cover;
+	background-position: auto;
+	font-family: sans-serif;
+}
+
+.loginbox{
+	width: 320px;
+	height: 500px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: 0.8;
+	border-radius: 25px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: -50%;
+	position: absolute;
+	top: -10%;
+	left: calc(82% - 45%)
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: 0;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	color: #fff;
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107
+	color: #000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.9s;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.logo { 
+    float: left; 
+    width: 3px; 
+    padding: 15px; 
+}
+.loginbox a{
+</style>
+<body>
+	<header>
+		<div class="mai">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../Equipments Gallery/Gallery.html">Gallery</a></li>
+				<li><a href="../About Us/Index.html">About</a></li>
+				<li><a href="../Contact Us/Index.html">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="loginbox">
+		<img src="256-512.png" class="avatar">
+			<h1>Sign Up Here</h1>
+			<form>
+				<input type="text" placeholder="First Name.." required>
+				<input type="text" placeholder="Last Name.." required>
+				<input type="text" placeholder="Email.." required>
+				<input type="text" placeholder="Username.." required>
+				<input type="password" placeholder="Password.." required>
+				<input type="submit" value="Submit">
+			</form>
+	</div>
+
+</body>
+</head>
+</html>
